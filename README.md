@@ -1,2 +1,2 @@
 # pythonlearn
-i am learning lython(beginner)
+i am learning python(beginner)
