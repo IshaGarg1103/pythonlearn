@@ -72,3 +72,9 @@ str2.join(str1) #'hpeplplpopwpoprplpd'
 str1.join(str2) #'p'
 str2='pp'
 str1.join(str2) #'phelloworldp'
+
+#partition
+str='india is a great country'
+str.partition('is') #('india ', 'is', ' a great country')
+str.partition(' ') #('india', ' ', 'is a great country')
+str1.partition('b') #('india is a great country', '', '')
