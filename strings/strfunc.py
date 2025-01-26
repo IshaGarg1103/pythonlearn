@@ -64,3 +64,11 @@ str='Hello!& 123World'
 str.istitle() #true
 str='Hello!& 123world'
 str.istitle() #false
+
+#join()
+str1='hello world'
+str2='p'
+str2.join(str1) #'hpeplplpopwpoprplpd'
+str1.join(str2) #'p'
+str2='pp'
+str1.join(str2) #'phelloworldp'
