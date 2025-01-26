@@ -78,3 +78,10 @@ str='india is a great country'
 str.partition('is') #('india ', 'is', ' a great country')
 str.partition(' ') #('india', ' ', 'is a great country')
 str1.partition('b') #('india is a great country', '', '')
+
+#split
+str1='india is a great country'
+str1.split() #['india', 'is', 'a', 'great', 'country']
+str1.split('b') #['india is a great country']
+str1.split(' ') #['india', 'is', 'a', 'great', 'country']
+str1.split('i') #['', 'nd', 'a ', 's a great country']
