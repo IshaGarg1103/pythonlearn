@@ -28,3 +28,6 @@ tuple2=(1,2,3,[4,5])
 #modify the list element of the tuple tuple2
 tuple2[3][1]=10
 tuple2 #(1,2,3,[4,10])
+#similar for list
+list=[1,2,(3,4)]
+list[2][1]=10 #error 
