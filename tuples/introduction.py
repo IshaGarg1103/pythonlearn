@@ -19,3 +19,12 @@ type(seq) #tuple
 #ACCESSING ELEMENTS IN A TUPLE
 tuple1=(2,4,6,8,10,12)
 tuple1[15] #error: index out of range
+
+#TUPLES ARE IMMUTABLE
+tuple1=(1,2,3,4,5)
+#tuple[4]=10 #does not support item assignment
+
+tuple2=(1,2,3,[4,5])
+#modify the list element of the tuple tuple2
+tuple2[3][1]=10
+tuple2 #(1,2,3,[4,10])
