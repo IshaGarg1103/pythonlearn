@@ -14,3 +14,7 @@ def translate(str1):
 str1=input("Enter the string :")
 n=translate(str1)
 print(n)
+#how does :
+#result = ''.join([str(item) for item in my_list])  # Convert each item to a string and join
+#work
+#iteration is happened , and then each item from the loop is converted into string and then concatenated into the empty string.
