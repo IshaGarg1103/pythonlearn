@@ -2,3 +2,5 @@ Jim-salesperson
 Pam-receptionist
 Oscar-accountant
 Michael-branch manager
+Toby- Human resources
+Kelly- Customer services
