@@ -1,7 +1,7 @@
 def translate(str):
     translation=""
     for letter in str:
-        if letter in "AEIOUaeiou":
+        if letter.lower() in "aeiou":
             translation=translation + "g"
         else:
             translation=translation+letter
